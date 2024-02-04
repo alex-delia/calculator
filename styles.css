@@ -30,3 +30,7 @@ button {
     font-size: 50px;
     width: 55px;
 }
+
+.clear {
+    flex: 0 0 90%;
+}
