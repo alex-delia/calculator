@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculatorBody {
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: solid black 1px;
+}
+
+.display {
+    font-size: 50px;
+    background-color: rgb(222, 222, 222);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4px;
+    border-bottom: solid black 1px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4px;
+}
+
+button {
+    font-size: 50px;
+    width: 55px;
+}
